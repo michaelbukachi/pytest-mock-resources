@@ -4,9 +4,9 @@ from pytest_mock_resources.container import (
     _postgres_container,
     _redis_container,
     _redshift_container,
-    pmr_mongo_config,
-    pmr_postgres_config,
-    pmr_redis_config,
+    MongoConfig,
+    PostgresConfig,
+    RedisConfig,
 )
 from pytest_mock_resources.fixture.database import (
     create_mongo_fixture,
@@ -14,6 +14,9 @@ from pytest_mock_resources.fixture.database import (
     create_redis_fixture,
     create_redshift_fixture,
     create_sqlite_fixture,
+    pmr_mongo_config,
+    pmr_postgres_config,
+    pmr_redis_config,
     Rows,
     Statements,
 )
