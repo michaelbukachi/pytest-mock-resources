@@ -6,6 +6,7 @@ from pytest_mock_resources.container import (
     _redshift_container,
     pmr_mongo_config,
     pmr_postgres_config,
+    pmr_redis_config,
 )
 from pytest_mock_resources.fixture.database import (
     create_mongo_fixture,
