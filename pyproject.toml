@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "pytest-mock-resources"
-version = "1.2.2"
+version = "1.2.3"
 description = "A pytest plugin for easily instantiating reproducible mock resources."
 authors = [
     "Omar Khan <oakhan3@gmail.com>",
     "Dan Cardin <ddcardin@gmail.com>",
     "Gabriel Michael <gabriel.j.michael@gmail.com>",
     "Prateek Pisat <pisatprateek12@gmail.com>",
+    "Lewis Moronta <lewis.moronta@gmail.com>"
 ]
 license = "MIT"
 keywords = [ "pytest", "sqlalchemy", "docker", "fixture", "mock" ]
@@ -45,7 +46,7 @@ pymongo = {version = "*", optional = true}
 redis = {version = "*", optional = true}
 
 [tool.poetry.dev-dependencies]
-black = {version = "=>19.3b0", allow-prereleases = true, python = ">=3.6"}
+black = {version = "^19.3b0", allow-prereleases = true, python = ">=3.6"}
 coverage = "*"
 flake8 = "*"
 isort = "*"
